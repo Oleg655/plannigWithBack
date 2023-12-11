@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/utils/node_modules
+/utils/package-lock.json
+package-lock.json
+/coverage
+/.env

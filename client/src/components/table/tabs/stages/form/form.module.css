@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.stage {
+  display: grid;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  padding: 0 25px;
+  cursor: pointer;
+  grid-template-columns: repeat(2, 1fr) auto;
+}
+
+.stage:hover {
+  background-color: rgb(229 237 243);
+}
+
+.expanded:hover {
+  background-color: transparent;
+}
+
+.switch {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  border-radius: 20%;
+  color: transparent;
+  font-size: 12px;
+  grid-row-start: span 2;
+}
+
+.expanded .switch {
+  color: rgb(38 89 199);
+}
+
+.switch:hover {
+  background-color: rgb(229 237 243);
+}
+
+.stage:hover .switch {
+  color: rgb(38 89 199);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.footer p {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  color: red;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dateWrapper {
+  display: grid;
+  grid-template-columns: calc(100% - 550px) auto calc(100% - 550px) auto;
+}

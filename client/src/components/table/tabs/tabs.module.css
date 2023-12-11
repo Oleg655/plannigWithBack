@@ -1,0 +1,41 @@
+.container {
+  max-height: calc(100% - 64px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sidebar {
+  height: 100%;
+  box-sizing: border-box;
+  flex-basis: 770px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.header {
+  display: flex;
+}
+
+.active {
+  border-bottom: 4px solid #2975b4;
+}
+
+.header p {
+  padding-bottom: 20px;
+  margin: 20px 20px 0;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.header p:hover {
+  color: #2975b4;
+}
+
+.close {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: auto;
+  cursor: pointer;
+}

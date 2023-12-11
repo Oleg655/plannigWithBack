@@ -1,0 +1,20 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "build": "0",
+  "description": "Package for Utils.",
+  "main": "closeapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "<=0.26.0",
+    "axios-cookiejar-support": "<=1.0.1",
+    "tough-cookie": "<=4.0.0"
+  }
+}

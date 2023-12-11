@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"label": "npm: build",
+			"detail": "tsc",
+			"presentation": {
+				  "showReuseMessage": false,
+				  "close": true
+			  }
+		},
+		{
+			"type": "npm",
+			"script": "closeapp",
+			"label": "npm: closeapp",
+			"detail": "node ./utils/closeapp.js",
+			"presentation": {
+				  "close": true,
+				  "showReuseMessage": false
+			  }
+		},
+    	{
+			"label": "start-Kserver",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"npm: build",
+				"npm: closeapp"
+			]
+    	}
+	]
+}

@@ -1,0 +1,8 @@
+.checkbox {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-checkbox-item input {
+  margin-right: 10px;
+}

@@ -1,0 +1,44 @@
+.dropdown-btn {
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-list {
+  position: absolute;
+  z-index: 1000;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 0.1px #aaa;
+  list-style: none;
+}
+
+/* .menu-container:first-child .dropdown-container .dropdown-list {
+  left: 100%;
+} */
+
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-checkbox-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-checkbox-item input {
+  margin-right: 10px;
+}
+
+.dropdown-list li:hover {
+  /* position: relative; */
+  background-color: #eee;
+}

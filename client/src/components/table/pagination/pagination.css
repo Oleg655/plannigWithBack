@@ -1,0 +1,64 @@
+.btn {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #1971c2;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  border: 1px solid #1971c2;
+  background-color: #1971c2;
+  color: #fff;
+}
+
+.btn:active {
+  border: 1px solid #1971c2;
+  background-color: #1971c2;
+  color: #fff;
+}
+
+.btn-active {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #1971c2;
+  background-color: #1971c2;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn-disabled {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #999;
+  background-color: transparent;
+  border-radius: 50%;
+  color: #999;
+  font-size: 18px;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+  gap: 20px;
+  transform: translate(-50%);
+}
+
+.pagination p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.page-size {
+  display: flex;
+  align-items: center;
+}

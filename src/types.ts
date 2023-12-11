@@ -1,0 +1,15 @@
+export const TYPES = {
+	Application: Symbol.for('Application'),
+	ExceptionFilter: Symbol.for('ExceptionFilter'),
+	ConfigService: Symbol.for('ConfigService'),
+	CoreController: Symbol.for('CoreController'),
+	LoggerService: Symbol.for('LoggerService'),
+	UserController: Symbol.for('UserController'),
+	UserService: Symbol.for('UserService'),
+	SequelizeService: Symbol.for('SequelizeService'),
+	UserRepository: Symbol.for('UserRepository'),
+	HttpClient: Symbol.for('HttpClient'),
+	RdmService: Symbol.for('RdmService'),
+	SessionRepository: Symbol.for('SessionRepository'),
+	SessionsService: Symbol.for('SessionsService'),
+};

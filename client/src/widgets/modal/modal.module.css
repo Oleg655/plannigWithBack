@@ -1,0 +1,14 @@
+.backdrop {
+  position: fixed;
+  z-index: 100;
+  background-color: rgb(0 0 0 / 35%);
+  inset: 0;
+}
+
+/* .modal-content {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
